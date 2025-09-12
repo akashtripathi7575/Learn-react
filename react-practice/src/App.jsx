@@ -1,11 +1,16 @@
 import "./App.css";
-import { Form } from "./Form";
+import { Person } from "./Person";
 // * means all things in a particular library
 
 function App() {
+  
   return (
     <div className="App">
-      <Form />
+      <Person 
+      name = "akash tripathi"
+      email = "akash@gmail.com"
+      age = {21}
+      />
     </div>
   );
 }
